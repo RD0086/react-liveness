@@ -1,0 +1,93 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+local.properties
+**/.xcode.env.local
+
+# Dependencies and package-manager state
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Logs and diagnostic reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests, coverage, and tool caches
+coverage/
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+.cache/
+.parcel-cache/
+.turbo/
+
+# JavaScript and React Native build output
+lib/
+dist/
+.expo/
+web-build/
+nitrogen/
+ios/generated/
+android/generated/
+
+# Android / Gradle
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+**/build/
+captures/
+*.apk
+*.aab
+*.dex
+*.class
+buck-out/
+.buckd/
+android/keystores/debug.keystore
+
+# iOS / Xcode
+Pods/
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.xcuserstate
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Ruby / Bundler
+.bundle/
+**/vendor/bundle/
